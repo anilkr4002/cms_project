@@ -117,24 +117,6 @@ npm start
 5. **Delete Articles**: Click the trash icon to remove articles
 6. **Recent Articles**: View your recently accessed articles
 
-## Features Implementation
-
-### Recently Viewed
-- Implemented using Python's `collections.deque` with `maxlen=10`
-- Stores article IDs per user in memory
-- Automatically removes duplicates and maintains order
-- Not persisted to database as per requirements
-
-### Authentication
-- JWT tokens for secure API access
-- User isolation - each user sees only their own articles
-- Token stored in browser localStorage
-
-### Pagination
-- Backend supports `page` and `per_page` query parameters
-- Default: 10 articles per page
-- Returns total count and page information
-
 ## Docker Commands
 
 ```bash
