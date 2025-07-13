@@ -76,8 +76,6 @@ createdb cms_db
 
 4. **Run the backend**
 ```bash
-export DATABASE_URL=postgresql://user:password@localhost:5432/cms_db
-export SECRET_KEY=your-secret-key
 python app.py
 ```
 
